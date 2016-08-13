@@ -1,5 +1,7 @@
 body{
 	font-family: "Arial", "Helvetica", sans-serif;
+	margin: 5px;
+	padding: 5px;
 }
 
 section{
@@ -41,5 +43,30 @@ p{
 	margin-left: 10px;
 }
 
-@media 
+@media (min-width: 768px) and (max-width: 991px){
+	#chicken {
+		width: 47%;
+		float: left;
+		box-sizing: border-box;
+	}
+	#beef{
+		float: right;
+		width:47%;
+		/*box-sizing: border-box;*/
+	}
+	#sushi{
+		width: 98%;
+		clear: both;
+	}
+
+}
+
+@media (max-width: 767px){
+	section{
+		display: block;
+		width: 98%;
+		float: left;
+
+	}
+}
 
