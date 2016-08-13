@@ -5,9 +5,11 @@ body{
 section{
 	border: 1px solid black;
 	display: inline-block;
-	width: 32%;
+	width: 31%;
 	background-color: grey;
-	margin: 5px;
+	box-sizing: border-box;
+	margin: 10px;
+	float: left;
 }
 
 h1{
@@ -22,18 +24,22 @@ h2{
 	text-align: center;
 }
 
-#chicken{
+#chicken h2{
 	background-color: pink;
 }
 
-#beef{
+#beef h2{
 	background-color: red;
 }
 
-#sushi{
+#sushi h2{
 	background-color: yellow;
 }
 
 p{
 	margin-top: 35px;
+	margin-left: 10px;
 }
+
+@media 
+
