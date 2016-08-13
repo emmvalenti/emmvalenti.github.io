@@ -27,15 +27,15 @@ h2{
 }
 
 #chicken h2{
-	background-color: pink;
+	background-color: #ffff33;
 }
 
 #beef h2{
-	background-color: red;
+	background-color: #ff0000;
 }
 
 #sushi h2{
-	background-color: yellow;
+	background-color: #ff6699;
 }
 
 p{
@@ -73,4 +73,3 @@ p{
 	}
 	
 }
-
