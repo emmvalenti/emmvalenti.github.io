@@ -5,7 +5,7 @@ body{
 section{
 	border: 1px solid black;
 	display: inline-block;
-	width: 30%;
+	width: 32%;
 	background-color: grey;
 	margin: 5px;
 }
@@ -16,6 +16,20 @@ h1{
 
 h2{
 	border: 1px solid black;
-	text-align: right;
-	margin-left: 5px;
+	width: 35%;
+	margin-top: 0;
+	float: right;
+	text-align: center;
+}
+
+#chicken{
+	background-color: pink;
+}
+
+#beef{
+	background-color: red;
+}
+
+#sushi{
+	background-color: yellow;
 }
