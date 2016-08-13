@@ -64,9 +64,13 @@ p{
 @media (max-width: 767px){
 	section{
 		display: block;
-		width: 98%;
-		float: left;
-
+		width: 95%;
+		
 	}
+
+	body{
+		margin: 20px;
+	}
+	
 }
 
