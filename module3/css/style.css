@@ -1,0 +1,12 @@
+body{
+	font-size: 100%;
+	color: rgba(164,141,209,.5);
+	background-color: rgb(241,241,222);
+	font-family:;
+}
+
+#header-nav {
+	background-color: rgb(88,115,112);
+	border-radius: 0;
+	border: 0;
+}
