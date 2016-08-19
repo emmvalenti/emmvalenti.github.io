@@ -10,3 +10,7 @@ body{
 	border-radius: 0;
 	border: 0;
 }
+
+.navbar-brand {
+	height: 100px;
+}
