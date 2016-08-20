@@ -6,9 +6,10 @@ body{
 }
 
 #header-nav {
-	background-color: rgba(88,115,112,.5);
+	background-color: rgb(88,115,112);
 	border-radius: 0;
 	border: 0;
+	opacity: .8;
 }
 
 .navbar-brand {
@@ -22,5 +23,7 @@ body{
 
 #main-content{
 	background-color: rgba(206,173,96,.3);
+	height: 1000px;
+	border-radius: 5px;
 	
 }
