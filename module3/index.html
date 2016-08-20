@@ -5,38 +5,45 @@
 	<meta http-equiv="X-UA-Compatible" content="IE-edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Module 3 Assignment</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto+Condensed" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<nav id="header-nav" class="navbar navbar-default">
-			<div class="container">
-				<div class="navbar-brand pull-left">
-					<a href="index.html"><h1>Food, LLC</h1></a>
-				</div>
-
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		<nav id="header-nav" class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse"  aria-expanded="false" data-target="#myNavbar">
 					<span class="sr-only">Toggle navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
-				</button>
+					</button>
+					<a class="navbar-brand" href="#">Food, LLC</a>
+				</div>
 
-				<div id="collapsable-nav" class="collapse navbar-collapse">
-					<ul id="nav-list" class="nav navbar-nav navbar-right">
-						<li>
-							<a href="#chicken">Chicken</a>
-						</li>
-						<li>
-							<a href="#beef">Beef</a>
-						</li>
-						<li>
-							<a href="#sushi">Sushi</a>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a href="#">Home</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="#chicken">Chicken</a></li>
+								<li><a href="#beef">Beef</a></li>
+								<li><a href="#sushi">Sushi</a></li>
+							</ul>
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="#">Sign Up</a></li>
+								<li><a href="#">Log In</a></li>
+							</ul>
 						</li>
 					</ul>
 				</div>
+
+				
 			</div>
 		</nav>
 	</header>
