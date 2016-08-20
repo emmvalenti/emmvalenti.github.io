@@ -36,3 +36,30 @@ body{
 	font-size: 2em;
 	text-transform: uppercase;
 }
+
+
+/*LARGE DEVICES*/
+@media (min-width: 1200px){
+	.navbar-nav>li>a {
+		visibility: hidden;
+	}
+}
+
+/*MED DEVICES*/
+@media (min-width: 992px) and (max-width: 1199px){
+	.navbar-nav>li>a {
+		visibility: hidden;
+	}
+}
+
+/* SMALL DEVICES */
+@media (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav>li>a {
+		visibility: hidden;
+	}
+}
+
+/*EXTRA SMALL DEVICES */
+@media (max-width: 767px){
+
+}
