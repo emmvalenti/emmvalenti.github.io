@@ -15,6 +15,12 @@ body{
 	height: 100px;
 }
 
-.navbar-brand h1 {
+.navbar-brand a {
 	color: rgb(206,173,96);
+	text-decoration: none;
+}
+
+#main-content{
+	background-color: rgba(206,173,96,.7);
+	height: 1000px;
 }
