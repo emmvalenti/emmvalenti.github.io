@@ -2,7 +2,7 @@ body{
 	font-size: 16px;
 	color: #777;
 	background-color: #E7E9E7;
-	font-family:;
+	font-family:'Roboto Condensed', sans-serif;
 }
 
 #header-nav {
@@ -21,20 +21,25 @@ body{
 	color: #FCF951;
 	text-decoration: none;
 	font-size: 2em;
+	font-family:'Pacifico', cursive;
 }
 
-#main-content{
+/*#main-content{
 	background-color: #69DBC8;
 	height: 1000px;
 	border-radius: 5px;
 	margin-top: 50px;
-}
+}*/
 
 .text-center {
 	text-align: center;
 	margin-top: 50px;
 	font-size: 2em;
 	text-transform: uppercase;
+}
+
+.container .jumbotron {
+	width: 90vw;
 }
 
 
@@ -61,5 +66,7 @@ body{
 
 /*EXTRA SMALL DEVICES */
 @media (max-width: 767px){
-
+	#collapsable-nav a{
+		font-size: 1.2em;
+	}
 }
