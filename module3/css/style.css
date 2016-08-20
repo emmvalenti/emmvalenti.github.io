@@ -1,15 +1,16 @@
 body{
-	font-size: 100%;
-	color: rgb(164,141,209);
-	background-color: rgb(241,241,222);
+	font-size: 16px;
+	color: #777;
+	background-color: #E7E9E7;
 	font-family:;
 }
 
 #header-nav {
-	background-color: rgb(88,115,112);
+	background-color: #69DBC8;
 	border-radius: 0;
 	border: 0;
 	opacity: .8;
+	width: 100%;
 }
 
 .navbar-brand {
@@ -17,13 +18,21 @@ body{
 }
 
 .navbar-brand a {
-	color: rgb(206,173,96);
+	color: #FCF951;
 	text-decoration: none;
+	font-size: 2em;
 }
 
 #main-content{
-	background-color: rgba(206,173,96,.3);
+	background-color: #69DBC8;
 	height: 1000px;
 	border-radius: 5px;
-	
+	margin-top: 50px;
+}
+
+.text-center {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 2em;
+	text-transform: uppercase;
 }
