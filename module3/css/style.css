@@ -27,16 +27,13 @@ body{
 .navbar-default .navbar-nav a{
 	color: #FCF951;
 	font-family: 'Pacifico', cursive;
+	text-align: center;
 }
-
-#nav-list {
-	margin-top: 10px;
-}
-
 
 .text-center {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 	font-size: 2em;
 	text-transform: uppercase;
 }
@@ -51,20 +48,9 @@ h2{
 	text-align: center;
 }
 
-.navbar-toggle {
-	
+.navbar-nav {
+	margin-top: 0;
 }
-
-/*
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-	border: 1px solid #61122f;
-}
-
-.navbar-header button.navbar-toggle {
-	clear: both;
-	margin-top: -30px;
-}
-*/
 
 /*LARGE DEVICES*/
 @media (min-width: 1200px){
