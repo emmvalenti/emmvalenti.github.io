@@ -29,7 +29,7 @@ body{
 }
 
 #nav-list a{
-	color: black;
+	color: #FCF951;
 	text-align: center;
 }
 
@@ -40,9 +40,17 @@ body{
 	text-transform: uppercase;
 }
 
-.container .jumbotron {
+#main-content {
 	background-color: #FCF951;
+	text-align: justify;
 }
+
+h2{
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+}
+
+
 
 
 /*LARGE DEVICES*/
@@ -70,5 +78,9 @@ body{
 @media (max-width: 767px){
 	#collapsable-nav a{
 		font-size: 1.2em;
+	}
+	#main-content{
+		margin-left:40px;
+		margin-right:40px;
 	}
 }
