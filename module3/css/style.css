@@ -24,7 +24,14 @@ body{
 	font-family:'Pacifico', cursive;
 }
 
+#nav-list {
+	margin-top: 10px;
+}
 
+#nav-list a{
+	color: black;
+	text-align: center;
+}
 
 .text-center {
 	text-align: center;
@@ -34,7 +41,7 @@ body{
 }
 
 .container .jumbotron {
-	width: 90vw;
+	background-color: #FCF951;
 }
 
 
