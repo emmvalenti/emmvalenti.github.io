@@ -50,8 +50,20 @@ h2{
 	text-align: center;
 }
 
+.navbar-toggle {
+	
+}
 
+/*
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
 
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+*/
 
 /*LARGE DEVICES*/
 @media (min-width: 1200px){
