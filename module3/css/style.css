@@ -15,23 +15,24 @@ body{
 
 .navbar-brand {
 	height: 100px;
+	font-family: 'Pacifico', cursive;
+	font-size: 2em;
+	margin-top: 40px;
 }
 
-.navbar-brand a {
+.navbar-default .navbar-brand{
 	color: #FCF951;
-	text-decoration: none;
-	font-size: 2em;
-	font-family:'Pacifico', cursive;
+}
+
+.navbar-default .navbar-nav a{
+	color: #FCF951;
+	font-family: 'Pacifico', cursive;
 }
 
 #nav-list {
 	margin-top: 10px;
 }
 
-#nav-list a{
-	color: #FCF951;
-	text-align: center;
-}
 
 .text-center {
 	text-align: center;
