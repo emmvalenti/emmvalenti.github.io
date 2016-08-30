@@ -179,7 +179,8 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/skylinebw.jpeg');
+  /*background-image: url('../img/skylinebw.jpeg');*/
+  background-image: url('emmvalenti.github.io/VAL_site-copy/img/skylinebw.jpeg');
   text-align: center;
   color: #000000;
 }
