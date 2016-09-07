@@ -67,6 +67,7 @@ p {
 section {
   padding: 100px 0;
 }
+
 aside {
   padding: 50px 0;
 }
@@ -120,6 +121,82 @@ aside {
 p.quote{
   margin-bottom: 10px;
 }
+
+/*CONTACT FORM*/
+section#contact {
+  background-color: #bfbfbf;
+}
+section#contact .section-heading {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+section#contact .form-group {
+  margin-bottom: 25px;
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+}
+section#contact .form-group input.form-control {
+  height: auto;
+}
+section#contact .form-group textarea.form-control {
+  height: 256px;
+}
+section#contact .form-control:focus {
+  border-color: #0000b3;
+  box-shadow: none;
+}
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bfbfbf;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bfbfbf;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bfbfbf;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #bfbfbf;
+}
+section#contact .text-danger {
+  color: #e74c3c;
+}
+
+section#contact {
+  padding: 60px;
+}
+
+section#contact p {
+  margin-bottom: 35px;
+}
+
+#contact h2.section-heading {
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+#contact button.btn.btn-xl {
+  color: #ffffff;
+  background-color: #0000b3;
+  margin-top: 25px;
+}
+/*END CONTACT FORM RULES*/
 
 /* CORRECT SPACING NEEDS TO BE FIXED FOR MEDIA QUERIES */
 .col-md-4 {
