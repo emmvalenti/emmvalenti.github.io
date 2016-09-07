@@ -51,7 +51,6 @@ p {
 }
 .col-md-4 span{
   font-size: 16px;
-  margin-left: 10px;
 }
 
 .quote{
@@ -104,6 +103,7 @@ aside {
   font-weight: 700;
   font-size: 13px;
   color: #222222;
+  cursor: pointer;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -320,6 +320,10 @@ header .header-content .header-content-inner p {
   .service-box {
     margin: 20px auto 0;
   }
+
+  #donna {
+    padding-bottom: 21px;
+  }
 }
 .service-box p {
   margin-bottom: 0;
@@ -370,6 +374,8 @@ header .header-content .header-content-inner p {
 .portfolio-box:focus {
   outline: none;
 }
+
+
 @media (min-width: 768px) {
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
