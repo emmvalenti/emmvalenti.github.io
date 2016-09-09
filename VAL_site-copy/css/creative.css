@@ -527,15 +527,24 @@ body {
   body {
     width: 810px;
   }
+  .form-control {
+    width: 90%;
+  }
 }
 /* For portrait layouts */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   body {
     width: 810px;
   }
+  .form-control {
+    width: 90%;
+  }
 }/* For landscape layouts only */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   body {
     width: 1030px;
+  }
+  .form-control {
+    width: 90%;
   }
 }
