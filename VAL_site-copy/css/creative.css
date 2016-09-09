@@ -522,6 +522,20 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
-@media (max-width: 768px) {
-  
+/* For general iPad layouts */
+@media only screen and (device-width: 768px) {
+  body {
+    width: 810px;
+  }
+}
+/* For portrait layouts */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  body {
+    width: 810px;
+  }
+}/* For landscape layouts only */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  body {
+    width: 1030px;
+  }
 }
