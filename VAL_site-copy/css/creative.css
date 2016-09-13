@@ -522,11 +522,11 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 
+
 /* For general iPad layouts */
 @media only screen and (device-width: 768px) {
   body {
-    /*width: 810px;*/
-    width: 768px;
+    width: 810px;
   }
   .form-control {
     width: 90%;
@@ -535,14 +535,12 @@ body {
 /* For portrait layouts */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
   body {
-    /*width: 810px;*/
-    width: 1024px;
+    width: 810px;
   }
   .form-control {
     width: 90%;
   }
-}
-/* For landscape layouts only */
+}/* For landscape layouts only */
 @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
   body {
     width: 1030px;
@@ -551,6 +549,7 @@ body {
     width: 90%;
   }
 }
+
 /*For extra small screens*/
 @media only screen and (max-device-width: 480px){
   section#contact {
