@@ -150,7 +150,7 @@ div#benefits-list{
 /*HOW IT WORKS RULES*/
 section {
 	padding-top: 100px;
-	padding-bottom: 200px;
+	padding-bottom: 100px;
 }
 
 section#intro{
@@ -179,8 +179,31 @@ section#digital {
 }
 
 .card-right{
-	margin-left: 800px;
 	box-shadow: 10px 10px 5px #888888;
+}
+
+.descrip{
+	font-size: 2em;
+}
+#digital-descrip{
+	float: left;
+}
+
+.row{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+section h2{
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Fredericka the Great', cursive;
+}
+section p{
+	font-size: 30px;
+	text-align: justify;
+}
+section#health p, section#health h2{
+	color:#ED6A5A;
 }
 
 /*medium screen devices*/
