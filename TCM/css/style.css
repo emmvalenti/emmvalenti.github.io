@@ -63,7 +63,7 @@ body{
 
 /*FOOTER*/
 .footer {
-	position: relative;
+	/*position: relative;*/
 	right:0;
 	bottom:0;
 	left:0;
@@ -97,6 +97,12 @@ span.copyright a:hover{
 	color:#ED6A5A;
 	text-decoration: none;
 }
+div#footer.container-fluid{
+	padding-right: 0px;
+	padding-left: 0px;
+	position:absolute;
+}
+
 /*FOOTER END*/
 
 /*CONTENT RULES*/
