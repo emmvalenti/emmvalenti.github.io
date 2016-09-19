@@ -201,6 +201,7 @@ section h2{
 	font-size: 60px;
 	text-align: center;
 	font-family: 'Fredericka the Great', cursive;
+	margin-bottom: 50px;
 }
 section p{
 	font-size: 30px;
@@ -210,8 +211,9 @@ section#health p, section#health h2, section#happiness p, section#happiness h2{
 	color:#ED6A5A;
 }
 section#intro{
-	padding-top: 50px;
-	padding-bottom: 150px;
+	padding-top: 80px;
+	padding-bottom: 100px;
+	margin-top:75px;
 }
 section#intro h1{
 	margin-bottom: 50px;
