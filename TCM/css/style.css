@@ -180,6 +180,10 @@ section#digital {
 
 .card-right{
 	box-shadow: 10px 10px 5px #888888;
+	margin-left:175px;
+}
+.card-left{
+	margin-left: 50px;
 }
 
 .descrip{
@@ -202,8 +206,26 @@ section p{
 	font-size: 30px;
 	text-align: justify;
 }
-section#health p, section#health h2{
+section#health p, section#health h2, section#happiness p, section#happiness h2{
 	color:#ED6A5A;
+}
+section#intro{
+	padding-top: 50px;
+	padding-bottom: 150px;
+}
+section#intro h1{
+	margin-bottom: 50px;
+}
+section#intro div.row{
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.left{
+	margin-left:50px;
+}
+.descrip-right{
+	margin-left:175px;
 }
 
 /*medium screen devices*/
