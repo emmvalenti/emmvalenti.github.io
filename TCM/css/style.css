@@ -147,16 +147,27 @@ div#benefits-list{
 	margin-top: 35px;
 }
 
-/*large screen devices*/
-/*
-@media (min-width: 1400px){
-	#landing-title{
-		margin-top: 75px;
-	}
-	#landing-content{
-		margin-top:125px;
-	}
-}*/
+/*HOW IT WORKS RULES*/
+section {
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+section#intro{
+	background-color: #5CA4A9;
+}
+section#health {
+	background-color:#F4F1BB;
+}
+section#culture {
+	background-color: #9BC1BC;
+}
+section#happiness{
+	background-color: #E6EBE0;
+}
+section#digital {
+	background-color: #ED6A5A;
+}
 
 /*medium screen devices*/
 @media (min-width:992px) and (max-width:1199px) {
