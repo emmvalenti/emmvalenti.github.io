@@ -236,6 +236,62 @@ section#intro div.row{
 	margin-left:175px;
 }
 
+/*CARD DETAILS */
+section#health .fa {
+	color: #ED6A5A;
+	font-size: 100px;
+	padding-left: 95px;
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+
+section#happiness .fa{
+	color: #ED6A5A;
+	font-size: 125px;
+	padding-left: 105px;
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+
+section#digital .fa{
+	color: #ED6A5A;
+	font-size: 125px;
+	padding-left: 92px;
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+
+section#culture .fa{
+	color: #ED6A5A;
+	font-size: 125px;
+	padding-left: 100px;
+	padding-top: 70px;
+	padding-bottom: 15px;
+}
+
+.card-title {
+	font-size: 3em;
+	color: #ED6A5A;
+	text-transform: uppercase;
+	padding-left: 25px;
+	
+}
+
+.card-text{
+	margin-top: 25px;
+	font-size: 26px;
+	font-family: 'Fredericka the Great', cursive;
+	color: #ED6A5A;
+}
+
+section#happiness span.card-title{
+	padding-left: 70px;
+}
+
+section#culture span.card-title{
+	padding-left: 45px;
+}
+
 /*medium screen devices*/
 @media (min-width:992px) and (max-width:1199px) {
 	
